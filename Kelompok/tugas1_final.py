@@ -23,13 +23,13 @@ print("[6] Tutup Program")
 
 print()
 
-choice = int(input("Pilih menu (1-6) > "))
-
 nama = ""
 nim = ""
 judul_buku = ""
 tgl_pinjam = ""
 tgl_kembalian = ""
+
+choice = int(input("Pilih menu (1-6) > "))
 
 while choice != 6:
     print()
