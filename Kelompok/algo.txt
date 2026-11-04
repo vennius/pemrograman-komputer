@@ -1,0 +1,101 @@
+1. Mulai
+2. Cetak garis ‘=’ 30x
+3. Cetak Peminjaman Buku Perpustakaan
+4. Cetak garis’=’ 30x
+5. books = ["Laskar Pelangi", "Andrea Hirata", "Fiksi"],
+                  ["Bumi Manusia", "Pramoedya Ananta Toer", "Sastra"],
+                  ["Pemrograman Python", "Wahana Komputer",                                      "Teknologi"],
+                  ["Matematika Dasar", "H. Sugiarto", "Pendidikan"],
+                  ["Kisah 25 Nabi dan Rasul", "Ibnu Katsir", "Agama"],
+                  ["Logika Informatika", "Rinaldi Munir", "Teknologi"]
+6. Cetak [1] Catat Peminjaman
+7. Cetak [2] Catat Pengembalian
+8. Cetak [3] Ketersediaan buku
+9. Cetak [4] Hitung Denda
+10. Cetak [5] Rekap Peminjaman
+11. Cetak [6] Tutup Program
+12. Nama=’’
+13. Nim=’’
+14. Judul_buku=’’
+15. Tgl_pinjam=’’
+16. Tgl_kembalian=’’
+17. Masukkan pilihan menu (1-6).
+    18. while pilihan != 6
+    18. Jika pilihan = 1,maka:
+        19. Cetak garis ‘=’ 50x
+        20. Cetak Catat peminjaman
+        21. Cetak ‘’50x
+        22. Masukkkan nama peminjam
+        23. Masukkan NIM
+        24. Masukkan judul buku
+    25. Periksa apakah judul buku tersedia dalam daftar buku
+        26. Jika ditemukan,tampilkan bahwa buku berhasil ditemukan
+        27. Jika tidak ditemukan, tampilkan judul buku tidak ditemukan
+    28. Masukkan tanggal pinjam 
+    29. Masukkan tanggal pengembalian
+    30. Cetak garis’=’50x
+    31. Cetak catat peminjaman
+    32. Cetak garis’=’50x
+    33. Jika pilihan = 2, maka:
+    34. Jika nama peminjam terisi,maka:
+        A. catatan="Buku Dikembalikan Dengan Kondisi Bagus"
+        B. Cetak garis ‘=’50x
+        C. Cetak catatan pengembalian
+        D. Cetak garis ‘=’ 50x
+        E. Cetak nama peminjam
+        F. Cetak nim 
+        G. Cetak judul buku
+        H. Cetak tanggal peminjam
+        I. Cetak tanggal kembalian
+        J. Cetak catatan
+        K. Cetak garis ‘=’ 50x
+    35. Jika tidak, maka:
+        A. Cetak belum ada data peminjaman
+    36. Jika pilihan = 3, maka:
+        37. Cetak garis ’=’ 50x
+        38. Cetak ketersediaan buku
+        39. Cetak garis’=’ 50x
+        40. Masukkan judul buku
+        41. ditemukan = False
+        42. Ulangi setiap buku di books:
+            A. Jika judul buku = buku[0], maka:
+                a. Cetak Buku telah ditemukan
+                b. Cetak judul buku
+                c. Cetak penulis
+                d. Cetak kategori
+                e. ditemukan = true
+                f. break
+            B. Jika ditemukan = False, maka:
+                a. Cetak Maaf, buku ini tidak tersedia
+            C. Cetak "-" 50x
+    45. Jika pilihan = 4
+        A. Cetak garis "-" 50x
+        B. Cetak Hitung Denda
+        C. Cetak garis "-" 50x
+        D. Masukkan hari terlambat (ht)
+        E. dph (denda per hari) = 10000
+        F. Jika ht > 0, maka:
+            a. denda = ht * dph
+            b. Cetak hari terlambat
+            c. Cetak total denda
+        G. Jika tidak, maka:
+            a. Cetak anda tidak terlambat
+            b. Cetak total denda Rp o
+        H. Cetak "-" 50x
+    46. Jika pilihan = 5, maka
+        A. Jika jumlah huruf variable nama <= 0, maka:
+            a. Cetak Belum ada data peminjaman.
+        B. Jika tidak, maka:
+            a. Cetak "-" 50x
+            b. Cetak Rekap Peminjaman
+            c. Cetak "-" 50x
+            d. Cetak nama
+            e. Cetak nim
+            f. Cetak judul buku
+            g. Cetak tanggal pinjam
+            h. Cetak tanggal pengembalian
+            i. Cetak "-" 50x
+    47. Cetak baris kosong
+    48. Masukkan pilihan menu (1-6).
+49. Selesai 
+
